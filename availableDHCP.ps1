@@ -1,0 +1,1 @@
+Get-DhcpServerv4ScopeStatistics -ComputerName server.domain.com
