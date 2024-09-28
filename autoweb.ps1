@@ -1,7 +1,7 @@
 # Simple template to automatically open programs/websites and save you a few clicks.
 
 $error.clear()
-try {Start-Process -FilePath "name" -ArgumentList 'example' 'example'}
+try {Start-Process -FilePath "FilePath/ApplicatioName.exe" -ArgumentList 'example' 'example'}
 catch {'Error occured'}
 if (!error) 
 {
