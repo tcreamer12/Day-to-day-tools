@@ -4,6 +4,8 @@
 Get-LocalGroupMember -Group "Administrators" | Where-Object {$_.myName -ne "$env:computername\user" -and $_.myName -ne "domain\name"} 
 | Remove-LocalGroupMember -Group Administrators -ErrorAction SilentlyContinue
 
+# local accounts must be $env:computername\accountName
+# domain accounts must be domain\domainAccount
 
 # Need to check?
 # Invoke-Command -ComputerName hostname -ScriptBlock {Get-LocalGroupMember -Group Administrators}
