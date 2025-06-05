@@ -1,0 +1,1 @@
+Invoke-GPupdate -Computer "ComputerName"
