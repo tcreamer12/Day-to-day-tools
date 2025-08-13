@@ -1,4 +1,4 @@
-# An issue came up where I had to manually add a regedit to a certain area in the HKLM Registry. No way in hell am I doing that manually everytime.
+# An issue came up where I had to manually add a regedit to a certain area in the HKLM Registry.
 # So here is a small script to create or change a DWORD value. 
 # I used ChatGPT to help build the structuring of the script.
 
