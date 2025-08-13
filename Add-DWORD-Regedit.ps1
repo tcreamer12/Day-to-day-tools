@@ -13,7 +13,7 @@ if (-not (Test-Path $RegPath)) {
   New-Item -Path $RegPath -Force | Out-Null 
 }
 
-# Error handling logic. 
+# Error handling logic
 try {
   $CurrentValue = Get-ItemProperty -Path $RegPath -Name $ValueName -ErrorAction Stop | Select-Object -ExpandProperty $ValueName
 } catch {
