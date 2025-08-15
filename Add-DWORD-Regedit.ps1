@@ -5,7 +5,7 @@
 # Define variables
 $RegPath = "HKLM:\Path\App"
 $ValueName = "Name of value"
-$ExpectedValue = 0x00001337
+$ExpectedValue = 0x00001337 # Hex value for DWORD
 
 # If RegPath does not exist, then create path.
 if (-not (Test-Path $RegPath)) {
